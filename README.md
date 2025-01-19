@@ -76,7 +76,7 @@ Em seguida, verificados se há valores faltantes nas colunas do DataFrame.
 dados_faltantes = df.isnull().sum()
 ```
 
-# Exibir a quantidade de dados faltantes:
+Exibir a quantidade de dados faltantes:
 ```python
 print(dados_faltantes)
 ```
@@ -88,7 +88,7 @@ print(dados_faltantes)
 tipos_de_dados = df.dtypes
 ```
 
-# Exibir os tipos de dados:
+Exibir os tipos de dados:
 ```python
 print(tipos_de_dados)
 ```
